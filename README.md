@@ -27,6 +27,7 @@ This project is a React-based web application that provides a user-friendly inte
 4. Users can select a result using mouse clicks or keyboard navigation (arrow keys and enter).
 5. The selected location details are displayed below the search box, including province, district, sub-district, and postal code in both Thai and English.
 6. The application maintains a responsive layout, adjusting to different screen sizes for optimal user experience on various devices.
+7. Dont forget to run `npm run create-zip` to create the zip file for the database. and don't upload the json file to the production.
 
 ## Components
 
