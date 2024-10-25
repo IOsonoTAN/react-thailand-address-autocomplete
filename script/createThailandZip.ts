@@ -26,13 +26,7 @@ async function createThailandZip(): Promise<void> {
     compressionOptions: { level: 9 },
   });
 
-  const zipPath: string = path.join(
-    __dirname,
-    "..",
-    "src",
-    "database",
-    "thailand.zip"
-  );
+  const zipPath: string = path.join(__dirname, "..", "public", "thailand.zip");
   await fs.writeFile(zipPath, zipContent);
 
   console.log("thailand.zip created successfully");

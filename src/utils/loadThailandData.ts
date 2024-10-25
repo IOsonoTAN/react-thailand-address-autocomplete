@@ -9,7 +9,7 @@ export async function loadThailandData() {
   }
 
   try {
-    const response = await fetch("/src/database/thailand.zip");
+    const response = await fetch("/thailand.zip");
     const zipData = await response.arrayBuffer();
     const zip = new JSZip();
     const unzipped = await zip.loadAsync(zipData);
